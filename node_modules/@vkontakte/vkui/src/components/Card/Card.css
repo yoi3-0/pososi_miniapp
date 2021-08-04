@@ -1,0 +1,50 @@
+.Card {
+  position: relative;
+  background: var(--content_tint_background);
+}
+
+.Card__in {
+  position: relative;
+  z-index: 2;
+  border-radius: inherit;
+}
+
+.Card--md-shadow {
+  box-shadow: 0 2px 24px 0 rgba(0, 0, 0, .08), 0 0 2px 0 rgba(0, 0, 0, .08);
+  background: var(--modal_card_background);
+}
+
+.Card--md-outline {
+  background: var(--modal_card_background);
+}
+
+.Card--md-outline::before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  content: '';
+  display: block;
+  border: var(--thin-border) solid var(--input_border);
+  z-index: 1;
+  box-sizing: border-box;
+  border-radius: inherit;
+}
+
+/**
+  * iOS
+ */
+
+.Card--ios {
+  border-radius: 10px;
+}
+
+/**
+ * Android, VKCOM
+ */
+
+.Card--android,
+.Card--vkcom {
+  border-radius: 8px;
+}
