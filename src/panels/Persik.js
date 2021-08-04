@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { Panel, PanelHeader, PanelHeaderBack } from '@vkontakte/vkui';
+import {Group, Panel, PanelHeader, PanelHeaderBack, Search} from '@vkontakte/vkui';
 
 import persik from '../img/persik.png';
 import './Persik.css';
@@ -9,10 +9,12 @@ import './Persik.css';
 const Persik = props => (
 	<Panel id={props.id}>
 		<PanelHeader
-			left={<PanelHeaderBack onClick={props.go} data-to="home"/>}
 		>
 			Persik
 		</PanelHeader>
+		<Group>
+			<Search value={null} onChange={null} after={null}/>
+		</Group>
 		<img className="Persik" src={persik} alt="Persik The Cat"/>
 	</Panel>
 );
