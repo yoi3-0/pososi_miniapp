@@ -4,7 +4,7 @@ import {View, ScreenSpinner, AdaptivityProvider, AppRoot, Epic, Tabbar, TabbarIt
 import '@vkontakte/vkui/dist/vkui.css';
 
 import Home from './panels/Home';
-import Persik from './panels/Persik';
+import AList from './panels/AList';
 import {Icon28NewsfeedOutline, Icon28ServicesOutline} from "@vkontakte/icons";
 
 const App = () => {
@@ -42,15 +42,15 @@ const App = () => {
 			<AppRoot>
 				<View activePanel={activePanel} popout={popout}>
 					<Home id='profile' fetchedUser={fetchedUser} go={go} />
-					<Persik id='persik' go={go} />
+					<AList id='AList' go={go} />
 				</View>
 				<Epic activeStory={activeStory} tabbar={
 					<Tabbar>
 						<TabbarItem
 							onClick={onStoryChange}
-							selected={activeStory === 'persik'}
-							data-story="persik"
-							text="Новости"
+							selected={activeStory === 'AList'}
+							data-story="AList"
+							text="Аниме-лист"
 						><Icon28NewsfeedOutline /></TabbarItem>
 						<TabbarItem
 							onClick={onStoryChange}
