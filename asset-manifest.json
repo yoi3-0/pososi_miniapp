@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/pososi_miniapp/static/css/main.94d9d93e.chunk.css",
-    "main.js": "/pososi_miniapp/static/js/main.40907b1d.chunk.js",
-    "main.js.map": "/pososi_miniapp/static/js/main.40907b1d.chunk.js.map",
+    "main.js": "/pososi_miniapp/static/js/main.ca510be0.chunk.js",
+    "main.js.map": "/pososi_miniapp/static/js/main.ca510be0.chunk.js.map",
     "runtime-main.js": "/pososi_miniapp/static/js/runtime-main.5c59102e.js",
     "runtime-main.js.map": "/pososi_miniapp/static/js/runtime-main.5c59102e.js.map",
     "static/css/2.a57d4aef.chunk.css": "/pososi_miniapp/static/css/2.a57d4aef.chunk.css",
-    "static/js/2.00f52cfb.chunk.js": "/pososi_miniapp/static/js/2.00f52cfb.chunk.js",
-    "static/js/2.00f52cfb.chunk.js.map": "/pososi_miniapp/static/js/2.00f52cfb.chunk.js.map",
+    "static/js/2.cb09629d.chunk.js": "/pososi_miniapp/static/js/2.cb09629d.chunk.js",
+    "static/js/2.cb09629d.chunk.js.map": "/pososi_miniapp/static/js/2.cb09629d.chunk.js.map",
     "index.html": "/pososi_miniapp/index.html",
     "static/css/2.a57d4aef.chunk.css.map": "/pososi_miniapp/static/css/2.a57d4aef.chunk.css.map",
     "static/css/main.94d9d93e.chunk.css.map": "/pososi_miniapp/static/css/main.94d9d93e.chunk.css.map",
-    "static/js/2.00f52cfb.chunk.js.LICENSE.txt": "/pososi_miniapp/static/js/2.00f52cfb.chunk.js.LICENSE.txt",
+    "static/js/2.cb09629d.chunk.js.LICENSE.txt": "/pososi_miniapp/static/js/2.cb09629d.chunk.js.LICENSE.txt",
     "static/media/persik.ae9f0072.png": "/pososi_miniapp/static/media/persik.ae9f0072.png"
   },
   "entrypoints": [
     "static/js/runtime-main.5c59102e.js",
     "static/css/2.a57d4aef.chunk.css",
-    "static/js/2.00f52cfb.chunk.js",
+    "static/js/2.cb09629d.chunk.js",
     "static/css/main.94d9d93e.chunk.css",
-    "static/js/main.40907b1d.chunk.js"
+    "static/js/main.ca510be0.chunk.js"
   ]
 }
