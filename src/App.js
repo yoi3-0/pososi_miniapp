@@ -17,7 +17,33 @@ const App = () => {
 		setActivePanel(e.currentTarget.dataset.story)
 	};
 
+	function getUrlVars()
+	{
+		let urlVar = window.location.search;
+		let dict = {};
+		let arrayVar = (urlVar.substr(1)).split('&');
+		if (arrayVar[0] === '') return false;
+		for (let i = 0; i < arrayVar.length; i++) {
+			let valueAndKey = arrayVar[i].split('=');
+			dict[valueAndKey[0]] = valueAndKey[1];
+		}
+		return dict;
+	}
+
+	function objToQueryString(obj)
+	{
+		const keyValuePairs = [];
+		for (let i = 0; i < Object.keys(obj).length; i += 1) {
+			keyValuePairs.push(`${encodeURIComponent(Object.keys(obj)[i])}=${encodeURIComponent(Object.values(obj)[i])}`);
+		}
+		return keyValuePairs.join('&');
+	}
+
+
 	useEffect(() => {
+		var urlVars=getUrlVars();
+		console.log(urlVars);
+		console.log("sosi");
 		bridge.subscribe(({ detail: { type, data }}) => {
 			if (type === 'VKWebAppUpdateConfig') {
 				const schemeAttribute = document.createAttribute('scheme');
@@ -40,10 +66,6 @@ const App = () => {
 	return (
 		<AdaptivityProvider>
 			<AppRoot>
-				<View activePanel={activePanel} popout={popout}>
-					<Home id='profile' fetchedUser={fetchedUser} go={go} />
-					<AList id='AList' go={go} />
-				</View>
 				<Epic activeStory={activeStory} tabbar={
 					<Tabbar>
 						<TabbarItem
@@ -60,6 +82,8 @@ const App = () => {
 						><Icon28ServicesOutline/></TabbarItem>
 					</Tabbar>
 				}>
+						<Home id='profile' fetchedUser={fetchedUser} go={go} />
+						<AList id='AList' go={go} />
 				</Epic>
 			</AppRoot>
 		</AdaptivityProvider>

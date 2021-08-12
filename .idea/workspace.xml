@@ -3,9 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="52caeafc-8fe8-4912-acdb-1cda91b4db60" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/2.00f52cfb.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/2.00f52cfb.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/2.00f52cfb.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.40907b1d.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.40907b1d.chunk.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/gh-pages/https!github.com!yoi3-0!pososi_miniapp.git" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/gh-pages/https!github.com!yoi3-0!pososi_miniapp.git" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/panels/Persik.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/panels/AList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/panels/AList.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +57,9 @@
       <updated>1627991138370</updated>
       <workItem from="1627991140145" duration="3314000" />
       <workItem from="1628097724982" duration="1548000" />
-      <workItem from="1628279600641" duration="2138000" />
+      <workItem from="1628279600641" duration="2426000" />
+      <workItem from="1628593295487" duration="618000" />
+      <workItem from="1628759947637" duration="1150000" />
     </task>
     <servers />
   </component>
