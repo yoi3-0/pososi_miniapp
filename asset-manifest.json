@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/pososi_miniapp/static/css/main.94d9d93e.chunk.css",
-    "main.js": "/pososi_miniapp/static/js/main.8c8e10eb.chunk.js",
-    "main.js.map": "/pososi_miniapp/static/js/main.8c8e10eb.chunk.js.map",
+    "main.js": "/pososi_miniapp/static/js/main.de8ffc1c.chunk.js",
+    "main.js.map": "/pososi_miniapp/static/js/main.de8ffc1c.chunk.js.map",
     "runtime-main.js": "/pososi_miniapp/static/js/runtime-main.5c59102e.js",
     "runtime-main.js.map": "/pososi_miniapp/static/js/runtime-main.5c59102e.js.map",
     "static/css/2.a57d4aef.chunk.css": "/pososi_miniapp/static/css/2.a57d4aef.chunk.css",
@@ -19,6 +19,6 @@
     "static/css/2.a57d4aef.chunk.css",
     "static/js/2.58a7a202.chunk.js",
     "static/css/main.94d9d93e.chunk.css",
-    "static/js/main.8c8e10eb.chunk.js"
+    "static/js/main.de8ffc1c.chunk.js"
   ]
 }
